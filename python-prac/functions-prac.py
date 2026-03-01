@@ -77,3 +77,22 @@
 # telefones_convertidos = converter_telefones(telefones) 
 
 # print(verifica_tipos(telefones_convertidos)) 
+
+# fifth exercise
+
+# valores = input("Digite os valores das vendas: ").split() 
+# total = sum(map(float, valores)) 
+# print(f"O total de vendas foi: {total}") 
+
+# sixth exercise
+
+numeros = input('Digite os numeros separados por espaços: ').split()
+numerosa = list(map(int, numeros))
+
+for i in numerosa:
+    if i % 2 == 0:
+        continue
+    else:
+        numerosa.remove(i)
+    
+print(f'Números pares: {" ".join(map(str, numerosa))}')
