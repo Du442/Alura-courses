@@ -86,13 +86,77 @@
 
 # sixth exercise
 
-numeros = input('Digite os numeros separados por espaços: ').split()
-numerosa = list(map(int, numeros))
+# numeros = input('Digite os numeros separados por espaços: ').split()
+# numerosa = list(map(int, numeros))
 
-for i in numerosa:
-    if i % 2 == 0:
-        continue
-    else:
-        numerosa.remove(i)
+# for i in numerosa:
+#     if i % 2 == 0:
+#         continue
+#     else:
+#         numerosa.remove(i)
     
-print(f'Números pares: {" ".join(map(str, numerosa))}')
+# print(f'Números pares: {" ".join(map(str, numerosa))}')
+
+# seventh exercise
+
+# def transformador_de_listas(lista1, lista2):
+#     dict_para_retorno = {}
+#     dict_para_retorno = list(zip(lista1, lista2))
+#     for produto in dict_para_retorno:
+#         print(f'{produto[0]}: {produto[1]}')
+#     return dict_para_retorno
+    
+# produtos = input('Digite os produtos separados por espaços: ').split()
+# precos = input('Digite os precos separados por espaços: ').split()
+
+# transformador_de_listas(produtos, precos)
+
+# eighth exercise
+
+# def calculadora(num1, num2, operacao):
+#     try:
+#         if operacao == '+':
+#             result_case_1 = num1 + num2
+#             return f'O resultado foi {result_case_1}'
+#         elif operacao == '-':
+#             result_case_2 = num1 - num2
+#             return f'O resultado foi {result_case_2}'
+#         elif operacao == '*':
+#             result_case_3 = num1 * num2
+#             return f'O resultado foi {result_case_3}'
+#         elif operacao == '/':
+#             result_case_4 = num1 / num2
+#             return f'O resultado foi {result_case_4}'
+#     except ZeroDivisionError as err:
+#         print(f'O erro foi encontrado como {err}')
+#     except TypeError as er:
+#         print(f'O erro encontrado foi {er}')
+#     except Exception as erro:
+#         print(f'O erro encontrado foi {erro}')
+
+# number1 = int(input('Digite o primeiro numero: '))
+# number2 = int(input('Digite o segundo numero: '))
+# operation = input('Digite qual operação deseja (| + | - | * | / |): ')
+
+# print(calculadora(number1, number2, operation))
+
+# ninth exercise
+
+# def aplicador_desconto(valor, desconto):
+#     try:
+#         porcentagem = valor * (desconto / 100)
+#         preco_final = valor - porcentagem
+#         return preco_final
+#     except ZeroDivisionError as err:
+#         print(f'O erro encontrado foi: {err}')
+#     except TypeError as er:
+#         print(f'O erro encontrado foi: {er}')
+#     except Exception as erro:
+#         print(f'O erro encontrado foi: {erro}')
+
+# porcentagem_desconto = int(input('Digite a porcentagem do desconto: '))
+# valor_compra = float(input('Digite o valor total da compra: '))
+
+# print(aplicador_desconto(valor_compra, porcentagem_desconto))
+
+# tenth exercise
