@@ -160,3 +160,18 @@
 # print(aplicador_desconto(valor_compra, porcentagem_desconto))
 
 # tenth exercise
+
+# def recursiva(n):
+#     if n <= 0:
+#         print('Erro')
+#     else:
+#         total = 0
+#         while n > 0:
+#             soma = n + n
+#             total = total + soma
+#             n -= 1
+#         return total
+
+# num = int(input('Digite um numero que você quer que retorne de forma recursiva: '))
+
+# print(recursiva(num))
