@@ -99,6 +99,20 @@
 
 # ninth exercise
 
+# notas = input('Digite as notas separadas por espaços: ')
+# lista_de_strings = notas.split()
+# lista_de_notas = list(map(int, lista_de_strings))
 
+# calculo_media = sum(lista_de_notas) / len(lista_de_notas)
+
+# print(round(calculo_media, 2))
 
 # tenth exercise
+
+# dados = input('Digite os dados do aluno no formato Nome, Idade, Nota separados por vírgula: ').split(", ")
+
+# for i in range(0, len(dados), 3):
+#     nome, idade, nota = dados[i], int(dados[i+1]), float(dados[i+2])
+#     print(f'\nNome: {nome}')
+#     print(f'Idade: {idade}')
+#     print(f'Nota: {nota}\n')
