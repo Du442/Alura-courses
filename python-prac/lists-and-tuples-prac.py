@@ -116,3 +116,40 @@
 #     print(f'\nNome: {nome}')
 #     print(f'Idade: {idade}')
 #     print(f'Nota: {nota}\n')
+
+# -------------------------------------------------------------------------------------------------------------------------------------
+
+# another exercises
+
+# exercise 1
+
+# def filtrar_anomalias(lista):
+#     lista_nova = []
+#     for i in lista:
+#         if 0 <= i <= 100:
+#             lista_nova.append(i)
+#         else:
+#             continue
+
+#     return lista_nova
+
+# lista_teste = [20, 15, 76, 54, 100, 190, 90, -8]
+# print(filtrar_anomalias(lista_teste)) 
+     
+# exercise 2
+def entregas(id_pedido, distancia_km, status):
+    lista = [(id_pedido, distancia_km, status)]
+    for i in range(len(lista)):
+        if lista.index('Pendente') == "Pendente":
+            print(lista[i])
+        else:
+            print('Status não pendente!')
+
+id = int(input('Digite o ID do produto: '))
+distancia = float(input('Digite a distancia do produto: '))
+status = input('digite o status do produto: ')
+
+entregas(id, distancia, status)
+
+
+
