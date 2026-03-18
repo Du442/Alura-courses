@@ -1,5 +1,5 @@
-## Python Activies from Alura Courses!!!
+## Python AI Activies from Alura Courses!!!
 
 ---
 
-Last update: 16/03/26
+Last update: 18/03/26
