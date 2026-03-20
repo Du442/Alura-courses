@@ -1,1 +1,4 @@
 .env
+
+ai_studies/venv/
+ai_studies/numpy-dados/
