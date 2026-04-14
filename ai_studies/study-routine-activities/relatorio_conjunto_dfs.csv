@@ -1,0 +1,8 @@
+ID_Venda,ID_Produto,Qtd_Vendida,Data_Venda,Nome_Item,Qtd_Estoque,Preco_Custo,_merge,Estoque_Final
+101.0,JF-001,2,2024-03-01,Whey Protein 1kg,50.0,120.0,both,48.0
+105.0,JF-001,1,2024-03-04,Whey Protein 1kg,50.0,120.0,both,49.0
+102.0,JF-002,1,2024-03-02,Creatina 300g,30.0,80.0,both,29.0
+,JF-003,0,,BCAA Caps,100.0,45.0,right_only,100.0
+104.0,JF-004,3,2024-03-03,Pre-Workout 200g,20.0,95.0,both,17.0
+,JF-005,0,,Albumina 500g,45.0,35.0,right_only,45.0
+103.0,JF-999,1,2024-03-02,,0.0,,left_only,-1.0
