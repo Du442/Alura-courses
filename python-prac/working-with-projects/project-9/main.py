@@ -1,0 +1,3 @@
+from treatment_errors_calculator import calculadora_simples
+
+print(calculadora_simples())

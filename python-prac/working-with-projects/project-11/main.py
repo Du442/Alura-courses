@@ -1,0 +1,3 @@
+from contador import contador_cedulas_unicas
+
+contador_cedulas_unicas()
