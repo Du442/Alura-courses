@@ -1,3 +1,13 @@
 .env
+
 \notebooks
+
 working-with-projects\.\__pycache__
+
+ai_studies/venv
+
+.venv
+
+langchain
+
+*__pycache__
